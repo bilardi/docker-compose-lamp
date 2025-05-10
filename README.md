@@ -131,6 +131,7 @@ If it does not work,
 docker-compose down php-apache
 # get the IMAGE ID of the php-apache image
 docker images
+# remove the image
 docker rmi <IMAGE ID>
 # recreate the new container
 docker-compose up php-apache -d
